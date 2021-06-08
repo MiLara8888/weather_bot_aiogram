@@ -4,7 +4,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 import requests
 import time
 
-bot = Bot(token='token')   #ввести токен
+bot = Bot(token='1851226196:AAELKfrJHtA4nCDiUk9dw1DwqTTl3uOEOU4')   #ввести токен
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 
