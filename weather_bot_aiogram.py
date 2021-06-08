@@ -24,7 +24,7 @@ async def hello(message):
 async def operat1(message):
     global a
     a = message.text
-    params = {'q': a, 'appid': 'appid',            #appid - ввести api key
+    params = {'q': a, 'appid': '03cd1de6780a3c62fd5edb5667e45235',            #appid - ввести api key
               'units': 'metric', 'lang': 'ru'}
     res = requests.get('http://api.openweathermap.org/data/2.5/weather', params=params)
     res = res.json()
